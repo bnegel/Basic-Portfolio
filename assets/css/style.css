@@ -57,11 +57,12 @@ a:visited {
 
     width: 100%;
     max-width: 1020px;
-    background-color: #f1e3e3;
+    background-color: lightslategray;
     padding-left: 250px;
     padding-right: 250px;
     padding-top: 30px;
     padding-bottom: 100px;
+    background-image: url(Basic-Portfolio/assets/images/circles-light.png);
 
 }
 
@@ -70,6 +71,8 @@ a:visited {
     width: 1000px;
     padding: 20px;
     background-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: 
 }
 
 h1 {
@@ -115,22 +118,81 @@ footer {
 
 }
 
+
 #whiteBoxContact {
     width: 60%;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right:15px;
     margin-left: 25%;
     margin-right: 25%;
     background-color: white;
 }
 
+.greenHeader {
+    color: #4aaaa5;
+  
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+}
+
+ul {
+    padding: 0px;
+    list-style-type: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+li {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
 input {
     width: 100%
 }
 
 textarea: {
+
     width: 100%
 }
 
 #submitButton {
+    background-color: #4aaaa5;
+    border: none;
+    width: 150px;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
 
 }
+
+.whiteBoxPortf {
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right:15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: white;
+}
+
+.projectThumbnails {
+    margin: 20px;
+    position: relative;
+    display: inline-block
+
+}
+
+#hangMan {
+    float: left
+}
+
+#rpgGame {}
