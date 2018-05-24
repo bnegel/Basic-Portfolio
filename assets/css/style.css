@@ -57,12 +57,12 @@ a:visited {
 
     width: 100%;
     max-width: 1020px;
-    background-color: lightslategray;
+   
     padding-left: 250px;
     padding-right: 250px;
     padding-top: 30px;
     padding-bottom: 100px;
-    background-image: url(Basic-Portfolio/assets/images/circles-light.png);
+    background-image: url(../images/circles-light.png);
 
 }
 
